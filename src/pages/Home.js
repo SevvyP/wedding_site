@@ -1,18 +1,22 @@
-import React from "react";
+import React, { Component } from "react";
+import photo from "../assests/J&I_Engagement-006.jpg";
 
-const Home = () => {
-  return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "Right",
-        alignItems: "Right",
-        height: "100vh",
-      }}
-    >
-      <h1>GeeksforGeeks is a Computer Science portal for geeks.</h1>
-    </div>
-  );
-};
+class Home extends Component {
+  render() {
+    const myStyle = {
+      backgroundImage: `url(${photo})`,
+      height: "100vh",
+      marginTop: "-70px",
+      fontSize: "50px",
+      backgroundSize: "cover",
+      backgroundRepeat: "no-repeat",
+    };
+    return (
+      <div style={myStyle}>
+        <h1> Long Griffin Wedding </h1>
+      </div>
+    );
+  }
+}
 
 export default Home;

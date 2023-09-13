@@ -1,6 +1,6 @@
 import React from "react";
 
-const Blogs = () => {
+const About = () => {
   return (
     <div
       style={{
@@ -10,9 +10,9 @@ const Blogs = () => {
         height: "100vh",
       }}
     >
-      <h1>Welcome to GeeksforGeeks Blogs</h1>
+      <h1>GeeksforGeeks is a Computer Science portal for geeks.</h1>
     </div>
   );
 };
 
-export default Blogs;
+export default About;

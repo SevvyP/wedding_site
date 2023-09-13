@@ -2,9 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./pages/About";
-import Events from "./pages/Events";
-import Annual from "./pages/Annual";
-import Blogs from "./pages/Blogs";
+import RSVP from "./pages/RSVP";
 import Admin from "./pages/Admin";
 import Home from "./pages/Home";
 
@@ -16,9 +14,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/annual" element={<Annual />} />
-          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/blogs" element={<RSVP />} />
           <Route path="/admin" element={<Admin />} />
         </Routes>
       </Router>
