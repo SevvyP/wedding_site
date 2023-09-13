@@ -6,6 +6,7 @@ import Events from "./pages/Events";
 import Annual from "./pages/Annual";
 import Blogs from "./pages/Blogs";
 import Admin from "./pages/Admin";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<App />} />
+          <Route path="/" exact element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/events" element={<Events />} />
           <Route path="/annual" element={<Annual />} />

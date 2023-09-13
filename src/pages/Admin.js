@@ -9,7 +9,7 @@ const Admin = () => {
     console.log(error);
   };
   return (
-    <GoogleOAuthProvider clientId={process.env.REAC_APP_OAUTH_CLIENT_ID}>
+    <GoogleOAuthProvider clientId={process.env.REACT_APP_OAUTH_CLIENT_ID}>
       <div>
         <h2>React Google Login</h2>
         <br />
