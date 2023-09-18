@@ -54,7 +54,7 @@ function DrawerAppBar(props) {
         component="nav"
         position="sticky"
         style={{
-          "background-image": "linear-gradient(to bottom, #000000, #7e7e7e)",
+          backgroundColor: "#7e7e7e",
         }}
       >
         <Toolbar>
