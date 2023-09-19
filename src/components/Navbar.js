@@ -16,7 +16,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 
 const drawerWidth = 240;
-const navItems = ["About", "RSVP", "Admin"];
+const navItems = ["Schedule", "RSVP", "Admin"];
 
 function DrawerAppBar(props) {
   const { window } = props;
@@ -52,7 +52,7 @@ function DrawerAppBar(props) {
       <CssBaseline />
       <AppBar
         component="nav"
-        position="sticky"
+        position="fixed"
         style={{
           backgroundColor: "#7e7e7e",
         }}
