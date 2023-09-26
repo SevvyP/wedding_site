@@ -10,11 +10,17 @@ class Home extends Component {
           src={photo}
           alt="Isaac and Jenna kissing with their dog Duke at their feet"
         />
-        <h1> Isaac Long </h1>
-        <p>- And - </p>
-        <h1> Jenna Griffin </h1>
-        <p>Cass City, MI</p>
-        <Countdown />
+        <div className="test-container">
+          <h1> Isaac Long </h1>
+          <p>- And - </p>
+          <h1> Jenna Griffin </h1>
+        </div>
+        <div className="test-container">
+          <p>Cass City, MI</p>
+        </div>
+        <div className="test-container">
+          <Countdown />
+        </div>
       </div>
     );
   }
